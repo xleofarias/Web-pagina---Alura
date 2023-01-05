@@ -1,33 +1,49 @@
 #imagem {
     width: 100%;
-    height: 500px;
   
 }
+
 .principal {
     background: #CCCCCC;
+    padding: 20px
 }
+
 h1 {
     text-align: center
 }
+
 p {
     text-align: center
 }
+
 #missão {
     font-size: 20px
 }
+
 em strong {
     color: rgb(255, 0, 0);
 }
 
 .beneficios {
     background: #FFFFFF;
+    padding: 15px;
 }
 
 h2 {
     text-align: center;
 }
 
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
 .itens { 
     font-style: italic;
-    
+}
+
+.imagembeneficios {
+    width: 50%
 }
