@@ -23,6 +23,10 @@ font-weight: bold;
 font-size: 22px;
 text-decoration: none;
 }
+nav a:hover {
+    color: rgb(241, 226, 137);
+    text-decoration:underline;
+}
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -33,6 +37,20 @@ text-decoration: none;
     text-align: center;
     width: 30%;
     vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.produtos li:hover{
+    border-color: rgb(241, 226, 137);
+}
+.produtos li:active {
+    border-color: rgb(4, 145, 27);
+}
+.produtos li:hover h2{
+    font-size: 35px;
 }
 .produtos h2 {
     font-size: 30px;
@@ -44,5 +62,5 @@ text-decoration: none;
 .produto-preco {
     font-size: 22px;
     font-weight: bold;
-    padding-top: 15px;
+    margin-top: 10px;
 }
