@@ -92,18 +92,22 @@ footer {
 
 main {
     width: 940px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
-main label {
+main label, form p {
     display: block;
     margin: 0 0 10px;
     font-size: 20px;
 }
 
-form input {
+.input-padrao {
     display: block;
     margin:0 0 20px;
     padding: 10px 10px;
-    width: 30%;
+    width: 40%;
+}
+
+.checkbox {
+    margin: 15px 0;
 }
