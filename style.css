@@ -1,6 +1,7 @@
 header {
     background: #BBBBBB;
     padding: 20px 0;
+    border: 2px solid #000000;
 }
 
 .caixa{
@@ -95,7 +96,7 @@ main {
     margin: 10px auto;
 }
 
-main label, form p {
+main label, form legend {
     display: block;
     margin: 0 0 10px;
     font-size: 20px;
@@ -110,4 +111,22 @@ main label, form p {
 
 .checkbox {
     margin: 15px 0;
+}
+
+.botaoDeEnviar {
+    width: 25%;
+    font-size: 17px;
+    padding: 5px;
+    background: #c74f4f;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.botaoDeEnviar:hover {
+    background: #9b1c1c;
+    transform: scale(1.2);
 }
