@@ -1,3 +1,3 @@
-# Web-pagina---Alura
+# Curso de HTML e CSS da Alura
 
 EM DESENVOLVIMENTO
