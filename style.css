@@ -130,3 +130,20 @@ main label, form legend {
     background: #9b1c1c;
     transform: scale(1.2);
 }
+
+table {
+    margin: 20px 0 40px;
+    text-align: center;
+    width: 30%;
+}
+
+thead {
+background: #555555;
+font-weight: bold;
+color: white;
+}
+
+th, td {
+    border: 2px solid #000000;
+    padding: 5px;
+}
