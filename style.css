@@ -155,6 +155,7 @@ th, td {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    text-shadow: 2px 2px 1.5px #e4931a;
 }
 
 .principal {
@@ -184,6 +185,12 @@ th, td {
 
 .imagem-beneficios {
     width: 60%;
+    opacity: 1;
+    box-shadow: 10px 10px 15px 0 #000000;
+}
+
+.imagem-beneficios:hover  {
+    opacity: 0.6;
 }
 
 .conteudo-beneficios {
@@ -234,4 +241,36 @@ th, td {
 .video {
     width: 560px;
     margin: 2em auto;
+}
+
+/* Modificando o site para usarmos em smarthphones*/
+
+@media screen and (max-width:480px){
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos{
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .produtos li {
+        width: auto;
+        margin: 10px;
+        display: block;
+    }
+
 }
