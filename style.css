@@ -255,6 +255,10 @@ th, td {
         width: auto;
     }
 
+    .principal {
+        margin: 1em;
+    }
+
     h1 {
         text-align: center;
     }
@@ -266,6 +270,10 @@ th, td {
 
     .lista-beneficios, .imagem-beneficios {
         width: 100%;
+    }
+
+    .botaoDeEnviar {
+        width: 40%;
     }
 
     p {
